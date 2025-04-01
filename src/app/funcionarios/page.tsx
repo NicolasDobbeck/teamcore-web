@@ -8,7 +8,7 @@ export default function FuncionariosPage() {
             <div className="p-6">
                 <div className="flex justify-between items-center mb-4">
                     <h2 className="text-xl font-bold text-gray-900">Funcionários</h2>
-                    <button className="bg-green-500 text-white px-4 py-2 rounded-lg">
+                    <button className="bg-green-600 text-white px-4 py-2 rounded-lg">
                         + Adicionar funcionário
                     </button>
                 </div>
