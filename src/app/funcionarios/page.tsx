@@ -1,19 +1,14 @@
-import NavBar from "@/components/nav-bar";
-import FuncionariosList from "@/components/funcionariosList";
+import AdicionarFuncionario from "@/components/adicionar-funcionario"
+import NavBar from "@/components/nav-bar"
 
 export default function FuncionariosPage() {
-    return (
-        <>
-            <NavBar active="funcionarios" />
-            <div className="p-6">
-                <div className="flex justify-between items-center mb-4">
-                    <h2 className="text-xl font-bold text-gray-900">Funcionários</h2>
-                    <button className="bg-green-600 text-white px-4 py-2 rounded-lg">
-                        + Adicionar funcionário
-                    </button>
-                </div>
-                <FuncionariosList />
-            </div>
-        </>
-    );
+  return (
+    <>
+      <NavBar active="funcionarios" />
+      <div className="p-6">
+        <h2 className="text-xl font-bold mb-4 text-gray-900">Adicionar Funcionário</h2>
+        <AdicionarFuncionario />
+      </div>
+    </>
+  )
 }
