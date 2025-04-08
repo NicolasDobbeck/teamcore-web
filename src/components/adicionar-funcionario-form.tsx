@@ -11,7 +11,7 @@ export default function AdicionarFuncionario() {
           type="text"
           name="ra"
           required
-          placeholder="Ex: N9098790"
+          placeholder="Ex: A1234567"
           className="mt-1 block w-full border px-3 py-2 rounded-md"
         />
       </label>
@@ -22,7 +22,7 @@ export default function AdicionarFuncionario() {
           type="text"
           name="nome"
           required
-          placeholder="Ex: Nicolas Mendes"
+          placeholder="Ex: João Silva"
           className="mt-1 block w-full border px-3 py-2 rounded-md"
         />
       </label>
